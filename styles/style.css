@@ -1,0 +1,381 @@
+/*body{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}*/
+
+body * {
+	font-family: Arial;
+}
+.box{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 5px;
+}	
+.box_add{
+	width: 91.23%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.layout_class{
+	height: 1200px;
+	position: relative;
+	background-color: white;
+
+}
+.layout_class1{
+	position: absolute;
+	width: 79%;
+	background-color: white;
+}
+.layout_class2{
+	position: absolute;
+	width: 19%;
+	right: 0.5%;
+	background-color: white;
+}
+#footer_id{
+	background-color: #cccccc;
+	/*background-image: "images/footer.jpg");*/
+
+}
+.table_id{
+	border: 3px solid #73AD21;
+}
+.footer{
+	background-color: #333;
+	bottom: 0px;
+}
+.table_margin{
+	margin: 5px;
+}
+.margin-top-5{
+	margin-top: 5px;
+}
+.margin-top-20{
+	margin-top: 20px;
+}
+.margin-bottom-20{
+	margin-bottom: 20px;
+}
+.margin-right-20{
+	margin-right: 20px;
+}
+.margin-left-20{
+	margin-left: 20px;
+}
+.margin-left-0{
+	margin-left: 0px;
+}
+.margin-right-0{
+	margin-right: 0px;
+}
+.margin-top-0{
+	margin-top: 0px;
+}
+.margin-bottom-0{
+	margin-bottom: 0px;
+}
+.padding-left-0{
+  padding-left: 0px;
+}
+.padding-right-0{
+  padding-right: 0px;
+}
+.padding-bottom-0{
+  padding-bottom: 0px;
+}
+.padding-top-0{
+  padding-top: 0px;
+}
+.padding-top-20{
+  padding-top: 20px;
+}
+
+
+.active {
+    background-color: #4CAFAD;
+}
+nav{
+    margin: 0;
+    overflow: hidden;
+	background-color: #333;
+	padding: 14px 16px;
+	color: white;
+	padding-left: 0px;
+}
+nav a {
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+nav a:hover:not(.active) {
+    background-color: #111;
+}
+
+#img_history{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-right: 1%;
+}
+.img_class{
+	width: 97%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-right: 1%;
+}
+.text_class{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 8px;
+}
+a{
+	color: #13A;
+    text-align: center;
+    padding: 5px 6px;
+    text-decoration: none;
+}
+.border_class{
+	border: 1px solid grey;
+}
+th{
+	padding: 1%;
+}
+
+
+
+.searchIcon{
+	font-size:5em;
+	color: red;
+}
+#main_h1{
+  color:#2C2C2C;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+
+body{
+	font-size: %5;
+	background: lightblue; /*   For browsers that do not support gradients */
+	background: linear-gradient(to bottom right, #324d78, white);  /*  Standard syntax */
+	/*background-color: hsla(50, 33%, 25%, 0.75);*/
+	/*background-color: lightblue;*/
+
+		/*---qotirilgan background---*/
+	/*background-image: url("images/background-03.jpg");
+	background-position: top center;
+	background-repeat: repeat;
+	background-attachment: fixed;*/
+}
+/*.container{
+	background-color: #eee;
+}*/
+#main{
+	/*background-color: #eee;*/
+	background-color: white;
+}
+#main1{
+	/*background-color: #eee;*/
+	background-color: #333;
+}
+#hr_main{
+	border-top-color: #5f5f5f;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+hr{
+	border-top-color: #5f5f5f;
+}
+/*#hr_main_top{
+	border-top-color: #5f5f5f;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	border-top: 5px solid red;
+}*/
+
+/*img[src^="images/foreheader.jpg"]{
+
+}*/
+.container_add{
+  	padding-right: 89px;
+  	padding-left: 90px;
+}
+.radius{
+	border-radius:0
+}
+/*.nav_background{
+	background-color: #5f5f5f;
+
+}*/
+
+
+/*chap tomondagi menyu*/
+.icon-bar {
+	margin-top: 120px;
+    width: 60px; /* Set a specific width */
+    background-color: #555; /* Dark-grey background */
+}
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 5px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+}
+/*ustiga borgandagi korinish*/
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+    /*width: 80px;*/
+    font-size: 46px;
+}
+
+.active_icon_bar {
+    background-color: #4CAF50; /* Add an active/current color */
+}
+/*end*/
+
+.svet{
+	background-color: #1F233C;
+	color: #ffffff;
+}
+#panelHide {
+	text-decoration: underline;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+#my_button{
+	background-color: #f6f6f6;
+	border: 1px solid #cccccc;
+	color: #2C2C2C;
+	font-size: 11px;
+	margin-left: 3px;
+}
+
+/*//*/
+#gallery{
+	padding: 10px;
+	border: 1px solid #cccccc;
+	width: 95%;
+	margin: 10px auto;
+	/*height: 450px;*/
+	/*display: none;*/
+}
+#big{
+	background-image: url("../images/gal/loader.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	/*padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;*/
+	margin-left: auto;
+	margin-right: auto;
+	/*height: 500px;*/
+	width:85%;
+	border: 1px dotted #cccccc;
+}
+#small{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+#small img{
+	border:none;
+}
+#small a{
+	padding-left: auto;
+	padding-right: auto;
+}
+
+#gallery2{
+	padding: 10px;
+	border: 1px solid #cccccc;
+	width: 95%;
+	margin: 10px auto;
+	/*height: 450px;*/
+	/*display: none;*/
+}
+#big2{
+	background-image: url("../images/gal/loader.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	/*padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;*/
+	margin-left: auto;
+	margin-right: auto;
+	/*height: 500px;*/
+	width:85%;
+	border: 1px dotted #cccccc;
+}
+#small2{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+#small2 img{
+	border:none;
+}
+#small2 a{
+	padding-left: auto;
+	padding-right: auto;
+}
+#switchGal {
+	text-decoration: underline;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+#my_form{
+	background-color: #eee;
+	/*margin-left: 20px;
+	margin-right: 20px;*/
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+input{
+	margin-top: 5px;
+}
+textarea{
+	margin-top: 5px;
+}
+label{
+	margin-top: 5px;
+}
+select{
+	margin-top: 5px;
+}
+.onFocus{
+	border : 2px solid green;
+	background-color' : #f6f6f6;
+}
+/*oldingi 'padding' yoki shunga o'xshagan narsalarni yangitdan o'rnatish uchun yangi class yaratib o'rnatilayotgan class yoniga qo'shib qo'yiladi. M: class="container navbarStyle"*/
+
+.thumbnail-simple{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 0px;
+}
+.modal-add{
+	width: 768px;
+}
